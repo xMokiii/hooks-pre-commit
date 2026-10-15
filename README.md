@@ -1,1 +1,1 @@
-"# hooks-pre-commit" 
+"# hooks-pre-commit"
