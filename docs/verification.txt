@@ -1,0 +1,16 @@
+Verification locale du TP - 2026-10-15
+Perimetre : fichiers suivis par Git, nouveau workflow CI et docs/bilan-tp.md.
+Commande : pre-commit run --show-diff-on-failure --files <fichiers du perimetre>
+Les fichiers nouveaux sont nommes explicitement car --all-files cible les fichiers suivis.
+Etat : copie de travail locale ; ceci ne prouve pas une execution GitHub Actions.
+
+Tests unitaires..........................................................Passed
+Audit des dépendances Python.............................................Passed
+trim trailing whitespace.................................................Passed
+fix end of files.........................................................Passed
+check for added large files..............................................Passed
+check yaml...............................................................Passed
+bandit...................................................................Passed
+Detect secrets...........................................................Passed
+
+Code de sortie : 0
